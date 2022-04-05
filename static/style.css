@@ -1,0 +1,169 @@
+h3{
+    text-align:center;
+}
+body{
+    background-color:rgb(114, 113, 108);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image:url(./bg2.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-blend-mode:multiply;
+    color:aliceblue;
+}
+.container{
+    display:grid;
+    grid-template-columns:50% 50%;
+    gap:10px;
+}
+.sport-image img 
+{
+width:100%;
+}
+.sport-image{
+    padding-top:50px;
+}
+.sports-detail
+{
+    text-align:justify;
+    padding:10px; 
+}
+.aboutme h1
+{
+    color:white;
+    text-transform: capitalize;
+    text-decoration:underline;
+}
+.aboutme-para p
+{
+color:white;
+text-align: center;
+}
+.aboutme-image
+{
+width:150px;
+height:150px;
+}
+.aboutme-image img
+{
+    width:100%;
+    height:100%;
+    border-radius:50%;
+}
+.aboutme-container
+{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    justify-items:center;
+}
+h2{
+    text-align:center;
+}
+
+/* .form{
+    background-image:linear-gradient(lightblue,purple);
+    background-repeat:no-repeat;
+    height:100vh;
+    font-family:Arial, Helvetica, sans-serif;
+} */
+.register-container{
+    display:inline-flex;
+    flex-direction:column;
+    gap:10px;
+    background-color: white;
+}
+.field{
+    display:flex;
+    gap:10px;
+    padding:10px;
+}
+.label{
+flex:3;
+text-transform: capitalize;
+color: black;
+}
+.input{
+    flex:4;
+}
+.title{
+   background-color: black;
+   color:white;
+   text-align: center;
+}
+.button button{
+   background-color:orange;
+   width:100%;
+   font-size:20px;
+   font-weight:bold;
+   color:white;
+   border-radius: 10px;
+   border:none;
+   padding:10px;
+}
+.button{
+   padding:10px;
+}
+form{
+   display:flex;
+   justify-content: center;
+   align-items:center;
+}
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .nav-container{
+    display:grid;
+    grid-template-columns:1fr 5fr;
+    justify-content:space-between;
+    align-items:flex-start;
+    justify-items:center;
+  }
+  .nav-register{
+    justify-self: end;
+  }
+  .nav-register form input[type="button"]{
+    background-color:royalblue;
+    color:white;
+    padding:10px;
+    border-radius:10px;
+  }
+
+  .nav-links{
+background-color:rgba(0, 0, 139, 0.589);
+height:100vh;
+padding: 20px;
+  }
+  .nav-links li{
+    text-align: center;
+  }
+  .nav-links ul{
+  display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+  height:100vh;
+ }
+  .nav-container ul{
+list-style-type:none;
+padding: 0;
+  }
+  .nav-links a{
+    color:aqua;
+    text-decoration:none;
+    text-transform:uppercase;
+  }
+  .nav-links a:hover{
+    border:solid;
+    background-color:black;
+    color:yellow;
+  }
+  .wrapper{
+      display:grid;
+      grid-template-columns:1fr 4fr;
+      grid-template-rows:1fr 4fr;
+      height:100vh;
+  }
+  .leftnav{
+      grid-column:1/2;
+      grid-row:1/3;
+  }
