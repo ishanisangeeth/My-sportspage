@@ -1,0 +1,53 @@
+<htm<l>
+    <head>
+        <title>
+            </title>
+            </head>
+            <body>
+                <h1>Registration Form</h1>
+            </body>
+             <form>
+                 <label>
+                     name
+                     <input type='text'>
+                 </label>
+                 <br>
+                 <label>
+                     father name
+                     <input type='text'>
+                 </label>
+                 <br>
+                 <label>
+                     mother name
+                     <input type='text'>
+                 </label>
+                 <br>
+                 <label>
+                     postel address 
+                     <input type='text'>
+                 </label>
+                 <br>
+                 <label>
+                    personal address
+                    <input type="text"> 
+                 </label>
+                  <br>
+                 <label>
+                     email
+                     <input type='emaail'>
+                     </label>
+                      <br>
+                     <label>
+                         dob 
+                         <input type='text'>
+                     </label>
+                      <br>
+                     <label>
+                         tel 
+                         <input type='tel'>
+                     </label>
+                     <br>
+                     <label>
+                      <input type='submit'> 
+                     </label>
+                     
